@@ -1,0 +1,10 @@
+rnumerator = (10*[XYSum])-([XSum]*[YSum])
+rdenomenator1 = ((10*[XSquareSum])-([XSum]^2))*((10*[YSquareSum])-([YSum]^2))
+rdenomenator2 = SQRT([rdenomenator1])
+r = [rnumerator]/[rdenomenator2]
+
+yintercept = (([YSum]*[XSquareSum])-([XSum]*[XYSum]))/((10*[XSquareSum])-([XSum]^2))
+
+slope=(10*[XYSum]-([XSum]*[YSum]))/(10*[XSquareSum]-([XSum]^2))
+
+nsales=(n*slope)+yintercept
