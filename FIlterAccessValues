@@ -1,0 +1,22 @@
+5a 
+Chart 
+Filters - sales date key 
+Axis - full date uk 
+Values - product actual cost 
+
+
+Table 
+Row - customer, gender 
+Values - sales person id, product key 
+
+5b 
+Chart 
+
+Axis - Sales person id, time key 
+Values - deviation, product actual cost 
+
+Table 
+Column - time key 
+Rows - customer id , product name 
+Values - quantity 
+Columns - time key 
